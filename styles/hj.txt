@@ -1,0 +1,133 @@
+
+/* play div */
+.play{
+    grid-area: 1 / 2 / 2 / 3;
+    height: 100%;
+    width: 100%;
+    background-color: var(--Soft-blue);
+    border-radius: 15px;
+    position: relative;
+}
+.icon svg{
+    float: right;
+    /* z-index: -1; */
+    margin-right: 10px;
+    top: -100px;
+}
+.play-content{
+    border-radius: 13px;
+    background-color: var(--Dark-blue);
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    bottom: 0;
+    padding: 13px;
+}
+
+.play-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    /* padding: 10px; */
+}
+.play-menu h3{
+    margin: 0px;
+    display: grid;
+    font-size: 18px;
+    color: var(--base-white);
+    place-items: center;
+}
+.play-menu .svg{
+    display: grid;
+    place-items: center;
+}
+.content-text{
+    /* padding: 20px; */
+}
+.content-text h3{
+    font-size: 50px;
+    margin: 0px;
+    color: var(--base-white);
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.content-text p {
+    font-size: 14px;
+    margin: 0px;
+    color: var(--Saturated-blue);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* play div */
+.study{
+    grid-area: 1 / 2 / 2 / 3;
+    height: 100%;
+    width: 100%;
+    background-color: var(--Light-red);
+    border-radius: 15px;
+    position: relative;
+}
+.icon svg{
+    float: right;
+    /* z-index: -1; */
+    margin-right: 10px;
+    top: -100px;
+}
+.study-content{
+    border-radius: 13px;
+    background-color: var(--Dark-blue);
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    bottom: 0;
+    padding: 13px;
+}
+
+.study-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    /* padding: 10px; */
+}
+.study-menu h3{
+    margin: 0px;
+    display: grid;
+    font-size: 18px;
+    color: var(--base-white);
+    place-items: center;
+}
+.study-menu .svg{
+    display: grid;
+    place-items: center;
+}
+.content-text{
+    /* padding: 20px; */
+}
+.content-text h3{
+    font-size: 50px;
+    margin: 0px;
+    color: var(--base-white);
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.content-text p {
+    font-size: 14px;
+    margin: 0px;
+    color: var(--Saturated-blue);
+
+}
